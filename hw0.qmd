@@ -1,0 +1,14 @@
+---
+title: "hw0"
+format: html
+editor: visual
+---
+
+```{r, echo =TRUE}
+a <- 1 
+b <- 3
+c <- 2
+x <- seq(-5, 5, length = 300)
+plot(x, a*x^2 + b*x + c, type = "l")
+abline(h = 0, lty = 2)
+```
